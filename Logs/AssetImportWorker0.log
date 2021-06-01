@@ -1,0 +1,743 @@
+Using pre-set license
+Built from '2021.1/staging' branch; Version is '2021.1.9f1 (7a790e367ab3) revision 8026382'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.985; Version 2009; 64bit' Language: 'en' Physical Memory: 65467 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.1.9f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/brenn/Unity Projects/Test2D/DesignPatterns/DesignPatterns
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+49456
+Successfully changed project path to: C:/Users/brenn/Unity Projects/Test2D/DesignPatterns/DesignPatterns
+C:/Users/brenn/Unity Projects/Test2D/DesignPatterns/DesignPatterns
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 85.20 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.9f1 (7a790e367ab3)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/brenn/Unity Projects/Test2D/DesignPatterns/DesignPatterns/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 980 Ti (ID=0x17c8)
+    Vendor:   NVIDIA
+    VRAM:     5992 MB
+    Driver:   27.21.14.6627
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.9f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56884
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.9f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.9f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.9f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.9f1/Editor/Data/PlaybackEngines/LuminSupport/UnityEditor.Lumin.Extensions.dll
+Registered in 0.002814 seconds.
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 80.69 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.520 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1520ms)
+		BeginReloadAssembly (41ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (374ms)
+			LoadAssemblies (40ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (129ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (22ms)
+			SetupLoadedEditorAssemblies (187ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (81ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (76ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004932 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\brenn\Unity Projects\Test2D\DesignPatterns\DesignPatterns\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\brenn\Unity Projects\Test2D\DesignPatterns\DesignPatterns\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 78.12 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.996 seconds
+Domain Reload Profiling:
+	ReloadAssembly (996ms)
+		BeginReloadAssembly (115ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (14ms)
+		EndReloadAssembly (831ms)
+			LoadAssemblies (72ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (284ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (354ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (78ms)
+				BeforeProcessingInitializeOnLoad (71ms)
+				ProcessInitializeOnLoadAttributes (182ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.62 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3654 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 135.7 MB.
+System memory in use after: 135.7 MB.
+
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 4098.
+Total: 2.698400 ms (FindLiveObjects: 0.244600 ms CreateObjectMapping: 0.160300 ms MarkObjects: 2.198100 ms  DeleteObjects: 0.094300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/Test1.unity
+  artifactKey: Guid(a4b1d2f95b022c743a0aaa557616845f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scenes/Test1.unity using Guid(a4b1d2f95b022c743a0aaa557616845f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'd205656fee23ce33d127825615e390d3') in 0.047641 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/2D Platformer Assets/Graphics/Level Art/Props/house.png
+  artifactKey: Guid(e55d57b28f1d95649870330ceb08ea92) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/2D Platformer Assets/Graphics/Level Art/Props/house.png using Guid(e55d57b28f1d95649870330ceb08ea92) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '9fa8c6355aeb12d49bedf3651d0260ac') in 0.070885 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/2D Platformer Assets/Audio/Sound Effects/Player Jump.wav
+  artifactKey: Guid(f62b85f9911a2e940a860a168aa83329) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/2D Platformer Assets/Audio/Sound Effects/Player Jump.wav using Guid(f62b85f9911a2e940a860a168aa83329) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '84145de9b8ff87385f1ddb0e50390513') in 0.070618 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/2D Platformer Assets/Graphics/Level Art/Props/tree.png
+  artifactKey: Guid(569b0b9b728b15748a6c1d0415d281c9) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/2D Platformer Assets/Graphics/Level Art/Props/tree.png using Guid(569b0b9b728b15748a6c1d0415d281c9) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'a745f414853ebbf39f6ba62cfcfdf30b') in 0.013124 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/2D Platformer Assets/Graphics/Player/player-jump.png
+  artifactKey: Guid(c75bbcc065e590849ab334ba2c39e1e1) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/2D Platformer Assets/Graphics/Player/player-jump.png using Guid(c75bbcc065e590849ab334ba2c39e1e1) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'c6c925388dcc339bdc56f2737e86cb84') in 0.012970 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/2D Platformer Assets/Audio/Sound Effects/Boss Shot.wav
+  artifactKey: Guid(b82fcf2db2812204c85407eec15f8328) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/2D Platformer Assets/Audio/Sound Effects/Boss Shot.wav using Guid(b82fcf2db2812204c85407eec15f8328) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'd75a61775ae93801e6774be4ce4e1b12') in 0.007439 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/2D Platformer Assets/Graphics/Level Art/Props/face-block.png
+  artifactKey: Guid(57c022df4f656aa42a874306f53e8a0e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/2D Platformer Assets/Graphics/Level Art/Props/face-block.png using Guid(57c022df4f656aa42a874306f53e8a0e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'ebe42e9ae59c789daba6f18ce3d4e050') in 0.012160 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Scripts/PlayerController.cs
+  artifactKey: Guid(3be0da4810d6ae245b083b0b9aa20b5d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scripts/PlayerController.cs using Guid(3be0da4810d6ae245b083b0b9aa20b5d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'f62cd498d2481d4a743587a3a2c236c1') in 0.074339 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/2D Platformer Assets/Graphics/Overworld/Overworld_Badges.png
+  artifactKey: Guid(14b95d8392b37704e9b4c68d004b2b78) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/2D Platformer Assets/Graphics/Overworld/Overworld_Badges.png using Guid(14b95d8392b37704e9b4c68d004b2b78) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '18cfca4e5a266a90aea9faf216340348') in 0.012016 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/2D Platformer Assets/Audio/Music/Level Victory.wav
+  artifactKey: Guid(2422c03ac263134479f4bd0e1bd5dd75) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/2D Platformer Assets/Audio/Music/Level Victory.wav using Guid(2422c03ac263134479f4bd0e1bd5dd75) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'd39203e9271efba2599bdb7d968b0e41') in 0.007058 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/2D Platformer Assets/Graphics/Enemies/frog-idle.png
+  artifactKey: Guid(cdb41fcfe2e6cda4ea4fbc86225c9168) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/2D Platformer Assets/Graphics/Enemies/frog-idle.png using Guid(cdb41fcfe2e6cda4ea4fbc86225c9168) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '93f76b1aa7b46fae1cf537471da892fe') in 0.014265 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/2D Platformer Assets/Graphics/UI/UI_Buttons_1_Normal.png
+  artifactKey: Guid(8e4df7a5423f8d64fbfdb075f7ffe9b7) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/2D Platformer Assets/Graphics/UI/UI_Buttons_1_Normal.png using Guid(8e4df7a5423f8d64fbfdb075f7ffe9b7) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '64b9658ea4801a30325a6ab8ed6c3e10') in 0.012783 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/2D Platformer Assets/Graphics/Level Mechanics/smasher.png
+  artifactKey: Guid(5fc370283b6843946a419e8e0e8a0163) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/2D Platformer Assets/Graphics/Level Mechanics/smasher.png using Guid(5fc370283b6843946a419e8e0e8a0163) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '5d5c14ac1372bc037b530f76cd6d7609') in 0.012571 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/2D Platformer Assets/Graphics/Enemies/frog-jump.png
+  artifactKey: Guid(cdef769344a4d2843b431173c3b1b00f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/2D Platformer Assets/Graphics/Enemies/frog-jump.png using Guid(cdef769344a4d2843b431173c3b1b00f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '9369a1e1d7def2e5cc11e82b175242bb') in 0.013196 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/2D Platformer Assets/Audio/Sound Effects/Player Hurt.wav
+  artifactKey: Guid(a39f2fa37f465714990e379c544d66ba) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/2D Platformer Assets/Audio/Sound Effects/Player Hurt.wav using Guid(a39f2fa37f465714990e379c544d66ba) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '4a7f84f0ffeb602690be4b6dfdd1eb14') in 0.006190 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/2D Platformer Assets/Graphics/Overworld/Overworld_tiles_Padded.png
+  artifactKey: Guid(c77131ed7a3e39842b182247171f6b28) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/2D Platformer Assets/Graphics/Overworld/Overworld_tiles_Padded.png using Guid(c77131ed7a3e39842b182247171f6b28) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '16bbf19cd75fa06a4e1343bfe284757d') in 0.060374 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/2D Platformer Assets/Audio/Music/Level Select.wav
+  artifactKey: Guid(cd314f7a16f19fc44a359fdf4811fb19) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/2D Platformer Assets/Audio/Music/Level Select.wav using Guid(cd314f7a16f19fc44a359fdf4811fb19) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'e65f0e8d5e6f85a4f8300c65604f3554') in 0.006699 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/2D Platformer Assets/Graphics/Level Art/Props/bush.png
+  artifactKey: Guid(a4ff1ef9b914c924db2aba5c6e50276a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/2D Platformer Assets/Graphics/Level Art/Props/bush.png using Guid(a4ff1ef9b914c924db2aba5c6e50276a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'e8cf8bd871ab34d599c09d9264410ce8') in 0.011841 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/2D Platformer Assets/Graphics/Level Art/Background/back.png
+  artifactKey: Guid(85a1ddf8aed626246ac1a542aca6b30f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/2D Platformer Assets/Graphics/Level Art/Background/back.png using Guid(85a1ddf8aed626246ac1a542aca6b30f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '9a950344a644343b57f38c66ab024118') in 0.008266 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/2D Platformer Assets/Graphics/Level Art/Props/block-big.png
+  artifactKey: Guid(fef7327efb956654cbeb10a86c78f153) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/2D Platformer Assets/Graphics/Level Art/Props/block-big.png using Guid(fef7327efb956654cbeb10a86c78f153) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'd8445e78674da7a22880539ce756edbf') in 0.011933 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/2D Platformer Assets/Graphics/Level Mechanics/small-platform.png
+  artifactKey: Guid(2d869149b877a4e4490423f3636ef3ea) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/2D Platformer Assets/Graphics/Level Mechanics/small-platform.png using Guid(2d869149b877a4e4490423f3636ef3ea) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'e410d1c57cc35c192d63dd8701bcf99c') in 0.011278 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/2D Platformer Assets/Starter_Scene.unity
+  artifactKey: Guid(12eaea94eaebc5e459e49753ddfd1f78) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/2D Platformer Assets/Starter_Scene.unity using Guid(12eaea94eaebc5e459e49753ddfd1f78) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'b7d15cffad64886daa18d636e1e2d60b') in 0.006142 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/2D Platformer Assets/Graphics/Enemies/enemy-deadth.png
+  artifactKey: Guid(1ec5cd5f2a02e694caf5c6db3dd7f329) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/2D Platformer Assets/Graphics/Enemies/enemy-deadth.png using Guid(1ec5cd5f2a02e694caf5c6db3dd7f329) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'c73129b7d2a9fa2fd410704e125f12a7') in 0.015439 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/2D Platformer Assets/Graphics/Level Art/Props/shrooms.png
+  artifactKey: Guid(c79491ebd568b894ba688c07429e4bc6) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/2D Platformer Assets/Graphics/Level Art/Props/shrooms.png using Guid(c79491ebd568b894ba688c07429e4bc6) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '22d0347b8868c446276695fbcc1c8a39') in 0.011593 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/2D Platformer Assets/Graphics/Level Mechanics/spike-skull.png
+  artifactKey: Guid(f1d80fd9b4ddb8e4da0bc329f0eeb59c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/2D Platformer Assets/Graphics/Level Mechanics/spike-skull.png using Guid(f1d80fd9b4ddb8e4da0bc329f0eeb59c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '54f42624172ab1dde0e8d0cb81c3b901') in 0.012398 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/2D Platformer Assets/Graphics/Collectibles/cherry.png
+  artifactKey: Guid(646c9b56df3e3c0449e1e69cb8d36fc1) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/2D Platformer Assets/Graphics/Collectibles/cherry.png using Guid(646c9b56df3e3c0449e1e69cb8d36fc1) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '101f3490653f8b88f28acecfa638829f') in 0.014233 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/2D Platformer Assets/Graphics/Level Mechanics/spikes_white.png
+  artifactKey: Guid(524a8e79300aa6d4a9aed5a2c0c98551) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/2D Platformer Assets/Graphics/Level Mechanics/spikes_white.png using Guid(524a8e79300aa6d4a9aed5a2c0c98551) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '3ae95f0abafb6f2c9789f9b6bd47e688') in 0.011948 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/2D Platformer Assets/Graphics/Enemies/oposum.png
+  artifactKey: Guid(845f3db9a86f590438cb3ac7f51f6137) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/2D Platformer Assets/Graphics/Enemies/oposum.png using Guid(845f3db9a86f590438cb3ac7f51f6137) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '3d80e4b294618f87a17c5943c9e9f1c3') in 0.015452 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/2D Platformer Assets/Graphics/Level Art/Props/skulls.png
+  artifactKey: Guid(3b4ee678bbc112e4a9a744f727ce1863) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/2D Platformer Assets/Graphics/Level Art/Props/skulls.png using Guid(3b4ee678bbc112e4a9a744f727ce1863) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '1439b21e6711b30eb642e5331687f76a') in 0.011987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/2D Platformer Assets/Graphics/Level Mechanics/door.png
+  artifactKey: Guid(002449c087a8ec84fbdcad8dc8188490) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/2D Platformer Assets/Graphics/Level Mechanics/door.png using Guid(002449c087a8ec84fbdcad8dc8188490) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '0a8aea039ca0c28fe5984116fc3368ff') in 0.011178 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/2D Platformer Assets/Audio/Sound Effects/Pickup Gem.wav
+  artifactKey: Guid(cc90dc27dc00d9d488db4c35489dcd18) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/2D Platformer Assets/Audio/Sound Effects/Pickup Gem.wav using Guid(cc90dc27dc00d9d488db4c35489dcd18) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '6b65c542e33e5aefb4374743dd0c428f') in 0.006806 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/2D Platformer Assets/Graphics/Boss/Tank_Big_Boss.png
+  artifactKey: Guid(693315c69ea86c84382fcc341e6f4ee7) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/2D Platformer Assets/Graphics/Boss/Tank_Big_Boss.png using Guid(693315c69ea86c84382fcc341e6f4ee7) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '248060b296a039b5c946abc2e3e67bea') in 0.024190 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/2D Platformer Assets/Graphics/Level Mechanics/crank-up.png
+  artifactKey: Guid(613d1e5387d085e42bfb0343ac6d567d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/2D Platformer Assets/Graphics/Level Mechanics/crank-up.png using Guid(613d1e5387d085e42bfb0343ac6d567d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '7c366a659d58be08cf67daf0ec9d1347') in 0.012282 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/2D Platformer Assets/Audio/Sound Effects/Player Death.wav
+  artifactKey: Guid(f7faa367df8ac0c47bb04fc0fa499e74) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/2D Platformer Assets/Audio/Sound Effects/Player Death.wav using Guid(f7faa367df8ac0c47bb04fc0fa499e74) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '0e0872de118b25b4fa8cc99dad9fa982') in 0.006863 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/2D Platformer Assets/Audio/Sound Effects/Boss Hit.wav
+  artifactKey: Guid(ee289ae1d683aeb47809616bd545321f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/2D Platformer Assets/Audio/Sound Effects/Boss Hit.wav using Guid(ee289ae1d683aeb47809616bd545321f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'de87d29b1460c84a2ff59f3bd72758f3') in 0.006661 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/2D Platformer Assets/Graphics/Level Art/Props/big-crate.png
+  artifactKey: Guid(3a6b0c911eb23124c94db8a4125738e7) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/2D Platformer Assets/Graphics/Level Art/Props/big-crate.png using Guid(3a6b0c911eb23124c94db8a4125738e7) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '8d4ff706ee677f53a1c8ee14c9e6c318') in 0.012877 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/2D Platformer Assets/Graphics/Level Art/Tileset/SunnyLand Tiles.png
+  artifactKey: Guid(9bcfd10f4b117ea4ebb5682e5337e612) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/2D Platformer Assets/Graphics/Level Art/Tileset/SunnyLand Tiles.png using Guid(9bcfd10f4b117ea4ebb5682e5337e612) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '0fb7ef864afb6c89cd9e5b7a71076839') in 0.112981 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/2D Platformer Assets/Graphics/Level Mechanics/spikes-top.png
+  artifactKey: Guid(f2ce6466904d3c3489bd0348cf9ceed8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/2D Platformer Assets/Graphics/Level Mechanics/spikes-top.png using Guid(f2ce6466904d3c3489bd0348cf9ceed8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'e668f4c71d551fb2051a00c234dba95a') in 0.011675 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/2D Platformer Assets/Graphics/Player/player-climb.png
+  artifactKey: Guid(c179a7ff3bcc4ad439e0d86f33b96480) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/2D Platformer Assets/Graphics/Player/player-climb.png using Guid(c179a7ff3bcc4ad439e0d86f33b96480) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '4d364c80fd6b3c0d0044af80c209d4ff') in 0.013142 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/2D Platformer Assets/Graphics/Enemies/eagle-attack.png
+  artifactKey: Guid(dc65e77ddc29c1d4f935b762e0474024) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/2D Platformer Assets/Graphics/Enemies/eagle-attack.png using Guid(dc65e77ddc29c1d4f935b762e0474024) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'a9d6c85457a1ecf47379eed0c86ce827') in 0.015841 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/2D Platformer Assets/Audio/Sound Effects/Enemy Explode.wav
+  artifactKey: Guid(dc40711d94f1bcf42988f2befb22119b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/2D Platformer Assets/Audio/Sound Effects/Enemy Explode.wav using Guid(dc40711d94f1bcf42988f2befb22119b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'c7ab9189c56d969f4ebd12cb0bcdb720') in 0.006638 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/2D Platformer Assets/Audio/Music/Title Screen.mp3
+  artifactKey: Guid(3f623a1b7402feb4897d2903f9ff90b5) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/2D Platformer Assets/Audio/Music/Title Screen.mp3 using Guid(3f623a1b7402feb4897d2903f9ff90b5) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'c43938dea0918efb022681483ef9fec5') in 0.009592 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/2D Platformer Assets/Graphics/UI/Title.png
+  artifactKey: Guid(930174776090fdf4491235becb10dbcd) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/2D Platformer Assets/Graphics/UI/Title.png using Guid(930174776090fdf4491235becb10dbcd) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '29a115fb41da6b04bbb8e64c406c1102') in 0.013756 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/2D Platformer Assets/Graphics/Player/player-crouch.png
+  artifactKey: Guid(83a68f06629a6f649bf9d5572c17e7d7) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/2D Platformer Assets/Graphics/Player/player-crouch.png using Guid(83a68f06629a6f649bf9d5572c17e7d7) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '565bd152cabbab3098b665daf8666370') in 0.015202 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/2D Platformer Assets/Graphics/Level Mechanics/Checkpoint Off.png
+  artifactKey: Guid(599bb51c6d72aae4f9ab0e0dc81c3996) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/2D Platformer Assets/Graphics/Level Mechanics/Checkpoint Off.png using Guid(599bb51c6d72aae4f9ab0e0dc81c3996) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'fdf96164b020d06316c12377523ec2bb') in 0.012767 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/2D Platformer Assets/Graphics/UI/UI_Heart.png
+  artifactKey: Guid(d9a616f95048ea84e8fc6f7920f846b8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/2D Platformer Assets/Graphics/UI/UI_Heart.png using Guid(d9a616f95048ea84e8fc6f7920f846b8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '09d31170bfcc82056afc3ca84ea29c99') in 0.014240 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/2D Platformer Assets/Graphics/Player/player-run.png
+  artifactKey: Guid(e584515e5484cf8449d6aaaef8f6c4f0) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/2D Platformer Assets/Graphics/Player/player-run.png using Guid(e584515e5484cf8449d6aaaef8f6c4f0) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '2305519b1b09513826619226172a60db') in 0.016173 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/2D Platformer Assets/Audio/Music/Game Complete.ogg
+  artifactKey: Guid(faec1ff30a32ede43a9835dce197f851) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/2D Platformer Assets/Audio/Music/Game Complete.ogg using Guid(faec1ff30a32ede43a9835dce197f851) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '04f772358e5f6a5ba382bd2b5fb7bbe0') in 0.009101 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/2D Platformer Assets/Audio/Sound Effects/Warp Jingle.wav
+  artifactKey: Guid(354a0e65ffdcc384192c4fb397a1373c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/2D Platformer Assets/Audio/Sound Effects/Warp Jingle.wav using Guid(354a0e65ffdcc384192c4fb397a1373c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'afb10a05559212ecb78bd9367c5bc1d1') in 0.006490 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/2D Platformer Assets/Graphics/Level Art/Props/sign.png
+  artifactKey: Guid(832ced79a9978ce4eaa88d553f7a173f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/2D Platformer Assets/Graphics/Level Art/Props/sign.png using Guid(832ced79a9978ce4eaa88d553f7a173f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '83c35512350274b190a2314372899eae') in 0.011743 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/2D Platformer Assets/Audio/Sound Effects/Boss Impact.wav
+  artifactKey: Guid(93f3bffd5325acf418af5e9ef0c65633) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/2D Platformer Assets/Audio/Sound Effects/Boss Impact.wav using Guid(93f3bffd5325acf418af5e9ef0c65633) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'b7a0a34e20e5c6c7bd37260019c1be49') in 0.007102 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/2D Platformer Assets/Graphics/Level Art/Props/crate.png
+  artifactKey: Guid(5c45fe5c49eee8a4696540a2a79fb85c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/2D Platformer Assets/Graphics/Level Art/Props/crate.png using Guid(5c45fe5c49eee8a4696540a2a79fb85c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '042c65fec6e52ba6250ed58ec4d51e16') in 0.011929 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/2D Platformer Assets/Graphics/UI/UI_Panel.png
+  artifactKey: Guid(f3fced62e3ef9044bbb6284d4567b780) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/2D Platformer Assets/Graphics/UI/UI_Panel.png using Guid(f3fced62e3ef9044bbb6284d4567b780) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '38677c0720a9b854d5dc4d9f8c93b597') in 0.011664 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/2D Platformer Assets/Graphics/Collectibles/gem.png
+  artifactKey: Guid(dcbfc38db01dc9c4086104f4d60804a7) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/2D Platformer Assets/Graphics/Collectibles/gem.png using Guid(dcbfc38db01dc9c4086104f4d60804a7) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'b68c1998a0e98b5d6caa1b8123c04260') in 0.014256 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/2D Platformer Assets/Graphics/Player/player-idle.png
+  artifactKey: Guid(d0ff653f4b4d3f14dab1926a9ed3efb6) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/2D Platformer Assets/Graphics/Player/player-idle.png using Guid(d0ff653f4b4d3f14dab1926a9ed3efb6) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '7a8c76c6d9a3c047d7c29ecaaac2c02c') in 0.010277 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/2D Platformer Assets/Graphics/Level Mechanics/crank-down.png
+  artifactKey: Guid(d80b01b560c64bb449eaa5cf91ea02a9) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/2D Platformer Assets/Graphics/Level Mechanics/crank-down.png using Guid(d80b01b560c64bb449eaa5cf91ea02a9) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '3149d69473556d9faedc845db73ad818') in 0.012084 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/2D Platformer Assets/Graphics/UI/Victory.png
+  artifactKey: Guid(8663534fb4c12ac4990946c3077fa2e4) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/2D Platformer Assets/Graphics/UI/Victory.png using Guid(8663534fb4c12ac4990946c3077fa2e4) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'aee5db2b2ea694859d42b2bfcdbb7667') in 0.012624 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/2D Platformer Assets/Graphics/Level Mechanics/Checkpoint On.png
+  artifactKey: Guid(0de9a52a86712d344adedb2493bb65d1) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/2D Platformer Assets/Graphics/Level Mechanics/Checkpoint On.png using Guid(0de9a52a86712d344adedb2493bb65d1) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'b61e0aa8c78ede449778b56da888104d') in 0.012450 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/2D Platformer Assets/Graphics/Credits.txt
+  artifactKey: Guid(4354690fdee777946bda3ed3e4834e54) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/2D Platformer Assets/Graphics/Credits.txt using Guid(4354690fdee777946bda3ed3e4834e54) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'ff1096749d145d51d6fbc5764f516f0b') in 0.009560 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/2D Platformer Assets/Graphics/Collectibles/Collect_Effect.png
+  artifactKey: Guid(7395d232a87288a49a0f59848ed97c9c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/2D Platformer Assets/Graphics/Collectibles/Collect_Effect.png using Guid(7395d232a87288a49a0f59848ed97c9c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '17b9f16293e62e8a27d62d84eb595c4c') in 0.015116 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/2D Platformer Assets/Font/Pixelnauts.ttf
+  artifactKey: Guid(b2fd7055df9d28d4e9e51ad10766889f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/2D Platformer Assets/Font/Pixelnauts.ttf using Guid(b2fd7055df9d28d4e9e51ad10766889f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'd913d346620420956fbf35b7035f4442') in 0.017437 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/2D Platformer Assets/Graphics/Level Mechanics/spikes.png
+  artifactKey: Guid(52162e303116f6b4ebbd5615b1752254) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/2D Platformer Assets/Graphics/Level Mechanics/spikes.png using Guid(52162e303116f6b4ebbd5615b1752254) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'a756cbe0f23c38ea637e80513c4abca2') in 0.011596 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/2D Platformer Assets/Graphics/Level Mechanics/Bouncer.png
+  artifactKey: Guid(4705bb7ba368b0542bc1c37d1c7a7210) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/2D Platformer Assets/Graphics/Level Mechanics/Bouncer.png using Guid(4705bb7ba368b0542bc1c37d1c7a7210) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '2e1f2cf4883a426aac74404f931f3e91') in 0.013079 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/2D Platformer Assets/Audio/Music/Main Level.wav
+  artifactKey: Guid(bfaf43c0dfe33994fa2ce257ba1e2df6) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/2D Platformer Assets/Audio/Music/Main Level.wav using Guid(bfaf43c0dfe33994fa2ce257ba1e2df6) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'c3e68bc3fc08898e995336887080f449') in 0.006350 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/2D Platformer Assets/Audio/Sound Effects/Map Movement.wav
+  artifactKey: Guid(79885f87faa9e424e802f7a808b64aa4) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/2D Platformer Assets/Audio/Sound Effects/Map Movement.wav using Guid(79885f87faa9e424e802f7a808b64aa4) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'c9cead139db48d7bf0bca8d3078bc3db') in 0.006745 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/2D Platformer Assets/Graphics/Level Mechanics/platform-long.png
+  artifactKey: Guid(b37035a006956934289aa4e8722ba709) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/2D Platformer Assets/Graphics/Level Mechanics/platform-long.png using Guid(b37035a006956934289aa4e8722ba709) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'a45a5a7bc2d9561757150313b6d7a512') in 0.011880 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/2D Platformer Assets/Graphics/UI/UI_Buttons_3_Pressed.png
+  artifactKey: Guid(3350a212bc3240a4a9dd25f6a4424f10) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/2D Platformer Assets/Graphics/UI/UI_Buttons_3_Pressed.png using Guid(3350a212bc3240a4a9dd25f6a4424f10) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '60662db0fe1a48acd99f495e9c359988') in 0.012505 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/2D Platformer Assets/Graphics/Level Art/Background/middle.png
+  artifactKey: Guid(9d541ad375405764cb1cbb0f66786d82) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/2D Platformer Assets/Graphics/Level Art/Background/middle.png using Guid(9d541ad375405764cb1cbb0f66786d82) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '78ff46de89b5de149668177ee4dfb7d7') in 0.010461 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/2D Platformer Assets/Graphics/Player/player-idle_0.controller
+  artifactKey: Guid(3f01af643516eae45bcb54ceefe99838) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/2D Platformer Assets/Graphics/Player/player-idle_0.controller using Guid(3f01af643516eae45bcb54ceefe99838) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '6b4a6ea7b1717fd29c296c06f628903d') in 0.011305 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/2D Platformer Assets/Audio/Music/Boss Battle.wav
+  artifactKey: Guid(2dfafa64e9333aa42a754b34cf0840be) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/2D Platformer Assets/Audio/Music/Boss Battle.wav using Guid(2dfafa64e9333aa42a754b34cf0840be) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '03797eb442c064b2a5a890e89a997fe0') in 0.007849 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Scripts/NumberWizard.cs
+  artifactKey: Guid(be43df82d2849ef43878129cb901413e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scripts/NumberWizard.cs using Guid(be43df82d2849ef43878129cb901413e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '2e5088ff66205a447f2464e6f48acbbc') in 0.006602 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Scenes/Test1Settings.lighting
+  artifactKey: Guid(7322e25961f127c45ad0b72e0c867d03) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scenes/Test1Settings.lighting using Guid(7322e25961f127c45ad0b72e0c867d03) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '4b887cc8f4be30783fe6d5daed302539') in 0.010127 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/2D Platformer Assets/Graphics/Player/player-hurt.png
+  artifactKey: Guid(0fee9a55d5bdb214980ef65ca7f08461) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/2D Platformer Assets/Graphics/Player/player-hurt.png using Guid(0fee9a55d5bdb214980ef65ca7f08461) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'cb18ea0f5ca805adfafc7386d11f74c8') in 0.013986 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/2D Platformer Assets/Audio/Sound Effects/Level Selected.wav
+  artifactKey: Guid(ecf58a5c7d2791f4997eabc8fb3e355b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/2D Platformer Assets/Audio/Sound Effects/Level Selected.wav using Guid(ecf58a5c7d2791f4997eabc8fb3e355b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'd7fb31ffa3234c8bd69851dfafb4e9e0') in 0.008048 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/2D Platformer Assets/Graphics/Level Art/simple_setup_level.png
+  artifactKey: Guid(3bcb7088d9c7aa548a699bbc7bccae27) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/2D Platformer Assets/Graphics/Level Art/simple_setup_level.png using Guid(3bcb7088d9c7aa548a699bbc7bccae27) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '6edc3948301a845256d9bd4c730aa312') in 0.011687 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/2D Platformer Assets/Graphics/Level Mechanics/Flagpole.png
+  artifactKey: Guid(b83a6ee14cd22ea4c84d2aa961c18a2c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/2D Platformer Assets/Graphics/Level Mechanics/Flagpole.png using Guid(b83a6ee14cd22ea4c84d2aa961c18a2c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'e70bc1b048cfb93ae7596f0f06859994') in 0.013300 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/2D Platformer Assets/Graphics/Level Art/Props/sign_glow.png
+  artifactKey: Guid(0b6c56e957944bd4c8d837371265d8a9) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/2D Platformer Assets/Graphics/Level Art/Props/sign_glow.png using Guid(0b6c56e957944bd4c8d837371265d8a9) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '0e0c95caf474b854965d5e6b44306434') in 0.012843 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/2D Platformer Assets/Graphics/Level Art/Props/block.png
+  artifactKey: Guid(42fc57492c0949845a7cbb8f66dc745a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/2D Platformer Assets/Graphics/Level Art/Props/block.png using Guid(42fc57492c0949845a7cbb8f66dc745a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '441f3bf9fda6639628d8700d06f1eaab') in 0.012461 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/2D Platformer Assets/Graphics/Player/Player.anim
+  artifactKey: Guid(191dc1cfa0983914f911288696afb116) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/2D Platformer Assets/Graphics/Player/Player.anim using Guid(191dc1cfa0983914f911288696afb116) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'e002f7770503d35adf44dba19ceb5be3') in 0.008939 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/2D Platformer Assets/Graphics/Level Art/Props/rock.png
+  artifactKey: Guid(22915f5332429ba40b073cac38461e2c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/2D Platformer Assets/Graphics/Level Art/Props/rock.png using Guid(22915f5332429ba40b073cac38461e2c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '8936db6704588e2e35645ad3f66d9000') in 0.012623 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/2D Platformer Assets/Graphics/UI/UI_Buttons_2_Highlighted.png
+  artifactKey: Guid(8e33aa6c6f939eb4c875676c3dbe94b7) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/2D Platformer Assets/Graphics/UI/UI_Buttons_2_Highlighted.png using Guid(8e33aa6c6f939eb4c875676c3dbe94b7) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'a8defa93f872484fb435c9cb978ac08a') in 0.012547 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/2D Platformer Assets/Audio/Sound Effects/Pickup Health.wav
+  artifactKey: Guid(00eaa619228f92c4f8cf7f71aff094da) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/2D Platformer Assets/Audio/Sound Effects/Pickup Health.wav using Guid(00eaa619228f92c4f8cf7f71aff094da) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '56823fa62e6869203c7477e1282e5e36') in 0.007876 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/Scripts/CommandPattern.cs
+  artifactKey: Guid(5b3546d52c7c8124dac9566476ec831d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scripts/CommandPattern.cs using Guid(5b3546d52c7c8124dac9566476ec831d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '720d8ab203088ad24bd49b5963a16145') in 0.006566 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '9afa651977f79da36d3aca57e5256f50') in 0.006318 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.552396 seconds.
+  path: Assets/2D Platformer Assets/Graphics/UI/UI_Buttons_2_Highlighted.png
+  artifactKey: Guid(8e33aa6c6f939eb4c875676c3dbe94b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Assets/Graphics/UI/UI_Buttons_2_Highlighted.png using Guid(8e33aa6c6f939eb4c875676c3dbe94b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8307f3cdb1fb3d202c989c117c71b993') in 0.060406 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/Scenes/Test1Settings.lighting
+  artifactKey: Guid(7322e25961f127c45ad0b72e0c867d03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Test1Settings.lighting using Guid(7322e25961f127c45ad0b72e0c867d03) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: '3a2111f3006fcb007177bc50b052254d') in 0.004755 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/2D Platformer Assets/Graphics/Enemies/frog-idle.png
+  artifactKey: Guid(cdb41fcfe2e6cda4ea4fbc86225c9168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Assets/Graphics/Enemies/frog-idle.png using Guid(cdb41fcfe2e6cda4ea4fbc86225c9168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94b47c5794da3fd47c7b3ab763435a2a') in 0.015979 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/2D Platformer Assets/Graphics/Boss/Tank_Big_Boss.png
+  artifactKey: Guid(693315c69ea86c84382fcc341e6f4ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Assets/Graphics/Boss/Tank_Big_Boss.png using Guid(693315c69ea86c84382fcc341e6f4ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67d9b8effc038464619754c3181c29b6') in 0.034996 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 214.312337 seconds.
+  path: Assets/Scripts/PlayerController.cs
+  artifactKey: Guid(3be0da4810d6ae245b083b0b9aa20b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerController.cs using Guid(3be0da4810d6ae245b083b0b9aa20b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95cbcd74bfd28986bb898bdd4fa5a508') in 0.004736 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004810 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\brenn\Unity Projects\Test2D\DesignPatterns\DesignPatterns\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\brenn\Unity Projects\Test2D\DesignPatterns\DesignPatterns\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.865 seconds
+Domain Reload Profiling:
+	ReloadAssembly (865ms)
+		BeginReloadAssembly (90ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (728ms)
+			LoadAssemblies (70ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (283ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (252ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (57ms)
+				ProcessInitializeOnLoadAttributes (175ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.57 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3652 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.5 MB.
+System memory in use after: 141.6 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 4164.
+Total: 1.982800 ms (FindLiveObjects: 0.226700 ms CreateObjectMapping: 0.140400 ms MarkObjects: 1.543500 ms  DeleteObjects: 0.071500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
