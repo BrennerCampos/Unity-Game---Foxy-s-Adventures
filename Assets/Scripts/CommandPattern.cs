@@ -1,18 +1,51 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class CommandPattern : MonoBehaviour
 {
+    public Transform instanceTransform;
+
+    private Command growButton, shrinkButton, rotateButton;
+
+    internal List<Command> commandQueue;
+
+
     // Start is called before the first frame update
-    void Start()
+    private void Start()
     {
-        
+        // Defining commands
+        growButton = new objectGrow();
+        shrinkButton = new objectShrink();
+        rotateButton = new objectRotate();
+
+       
     }
 
     // Update is called once per frame
-    void Update()
+    private void Update()
+    {
+        handleInput();
+    }
+
+    private void handleInput()
     {
         
+        // Some basic commands
+        if (Input.GetKeyDown(KeyCode.G))
+        {
+            growButton.Execute(instanceTransform);
+        }
+        else
+        if (Input.GetKeyDown(KeyCode.S))
+        {
+            shrinkButton.Execute(instanceTransform);
+        }
+        else
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            rotateButton.Execute(instanceTransform);
+        }
+        
+
     }
 }
