@@ -7,6 +7,7 @@ public class DestroyOverTime : MonoBehaviour
 
     public float lifeTime;
 
+
     // Start is called before the first frame update
     void Start()
     {
@@ -16,11 +17,7 @@ public class DestroyOverTime : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // Waits 'lifetime' variable before destroying object
+        // Waits 'lifetime' variable before destroying object that called this class function
         Destroy(gameObject, lifeTime);
-
-
-       // lifeTime -= Time.deltaTime;
-
     }
 }

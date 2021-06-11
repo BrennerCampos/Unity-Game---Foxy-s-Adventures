@@ -3,6 +3,7 @@ using UnityEngine;
 
 public class CommandPattern : MonoBehaviour
 {
+    
     public Transform instanceTransform;
 
     private Command growButton, shrinkButton, rotateButton;
@@ -13,12 +14,10 @@ public class CommandPattern : MonoBehaviour
     // Start is called before the first frame update
     private void Start()
     {
-        // Defining commands
+        // Defining commands & buttons
         growButton = new objectGrow();
         shrinkButton = new objectShrink();
         rotateButton = new objectRotate();
-
-       
     }
 
     // Update is called once per frame
@@ -29,8 +28,7 @@ public class CommandPattern : MonoBehaviour
 
     private void handleInput()
     {
-        
-        // Some basic commands
+        // Specific command triggers and actions
         if (Input.GetKeyDown(KeyCode.G))
         {
             growButton.Execute(instanceTransform);
@@ -45,7 +43,5 @@ public class CommandPattern : MonoBehaviour
         {
             rotateButton.Execute(instanceTransform);
         }
-        
-
     }
 }

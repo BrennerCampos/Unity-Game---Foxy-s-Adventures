@@ -6,55 +6,37 @@ using UnityEngine;
 public class CameraController : MonoBehaviour
 {
 
-    public Transform target;
-    public Transform farBackground, middleBackground;
-
+    public Transform farBackground, middleBackground, target;
     public float minHeight, maxHeight;
 
-
-    //private float lastXPos;
     private Vector2 lastPos;
 
 
     // Start is called before the first frame update
     void Start()
     {
-        // Keeping track of what our previous x value was so we can apply it accordingly to the camera system
-        //lastXPos = transform.position.x;
-
+        // Keeping track of what our previous x and y values were so we can apply it accordingly to the camera system (Vector3 -> Vector2)
         lastPos = transform.position;
     }
 
     // Update is called once per frame
     void Update()
     {
-
-        transform.position = new Vector3(target.position.x, target.position.y, transform.position.z);
-
-        /*
-        // setting a value we want to 'clamp' our screen between
-        float clampedY = Mathf.Clamp(transform.position.y, minHeight, maxHeight);
-
-        transform.position = new Vector3(transform.position.x, clampedY, transform.position.z);
-        */
-
-
+        // Setting a 'clamp' on our screen/camera on our y axis
         transform.position = new Vector3(target.position.x, Mathf.Clamp(target.position.y, minHeight, maxHeight),
             transform.position.z);
 
-
-        //float amountToMoveX = transform.position.x - lastXPos;
+        // Setting up movement constant based on our current and last positions
         Vector2 amountToMove = new Vector2(transform.position.x - lastPos.x, transform.position.y - lastPos.y);
 
-        // adding on to the position we currently have with the amount to move X with amountToMoveX
-        farBackground.position = farBackground.position + new Vector3(amountToMove.x, amountToMove.y, 0f);
-        
-        // move middleBackground half the distance of which we'd mvoe the farBackground (static following)
+        // Adding on to the far background position with 'amountToMove' position values
+        farBackground.position += new Vector3(amountToMove.x, amountToMove.y, 0f);
+
+        // Adding on to the middle background position with 'amountToMove' position values
+           // (Half the distance of which we moved the farBackground (static following) to create parallax effect
         middleBackground.position += new Vector3(amountToMove.x, amountToMove.y, 0f) * 0.5f;
 
-        // updating our lastXPos variable to the current x position
-        //lastXPos = transform.position.x;
-
+        // Lastly, update our position to use as our last position for next iteration
         lastPos = transform.position;
     }
 }

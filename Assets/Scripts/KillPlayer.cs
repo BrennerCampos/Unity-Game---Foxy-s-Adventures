@@ -16,13 +16,11 @@ public class KillPlayer : MonoBehaviour
         
     }
 
-
-    private void OnTriggerEnter2D(Collider2D other)
+    private void OnTriggerEnter2D(Collider2D other)    // Setting collision actions
     {
         if (other.tag == "Player")
         {
             LevelManager.instance.RespawnPlayer();
         }
     }
-
 }

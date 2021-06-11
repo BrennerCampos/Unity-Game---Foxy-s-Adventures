@@ -16,27 +16,15 @@ public class DamagePlayer : MonoBehaviour
         
     }
 
-
-    private void OnTriggerEnter2D(Collider2D other)
+    private void OnTriggerEnter2D(Collider2D other)  // Setting collision actions
     {
-
+        // If we collide with a Player
         if (other.tag == "Player")
         {
-            
-            
-            // Debug.Log("Hit");
-
-
             // FindObjectOfType<PlayerHealthController>().DealDamage();
 
             // Singleton Approach, Unity looks in its memory for static 'instance' and runs DealDamage
             PlayerHealthController.instance.DealDamage();
-
         }
-
-        
-
     }
-
-
 }

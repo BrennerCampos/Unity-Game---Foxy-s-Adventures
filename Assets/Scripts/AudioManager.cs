@@ -5,18 +5,15 @@ using UnityEngine;
 public class AudioManager : MonoBehaviour
 {
     public static AudioManager instance;
-
     public AudioSource[] soundEffects;
-
     public AudioSource BGM, levelEndMusic;
+    
 
+    // Creates an AudioManager instance constructor before game starts
     private void Awake()
     {
         instance = this;
     }
-
-
-
 
     // Start is called before the first frame update
     void Start()
@@ -30,17 +27,14 @@ public class AudioManager : MonoBehaviour
         
     }
 
-
     public void PlaySFX(int soundToPlay)
     {
-        // Stop any other already playing instance of this sound effect
+        // First, stop any other already playing instance of this sound effect
         soundEffects[soundToPlay].Stop();
-
+        // Randomizing pitch of SFX slightly so it doesn't sound monotonous and robotic
         soundEffects[soundToPlay].pitch = Random.Range(0.9f, 1.1f);
-
         // Then play the sound effect from the array
         soundEffects[soundToPlay].Play();
-
     }
 
 }

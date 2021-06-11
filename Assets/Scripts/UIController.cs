@@ -6,22 +6,17 @@ using UnityEngine.UI;
 public class UIController : MonoBehaviour
 {
 
-
     public static UIController instance;
-
     public Image heart1, heart2, heart3;
-
     public Sprite heartFull, heartEmpty, heartHalf;
-
     public Text gemText;
 
 
+    // Creates UI Controller constructor before game starts
     private void Awake()
     {
         instance = this;
     }
-
-
 
     // Start is called before the first frame update
     void Start()
@@ -35,11 +30,10 @@ public class UIController : MonoBehaviour
         
     }
 
-
+    // Refresh our Health UI after any changes
     public void UpdateHealthDisplay()
     {
-
-
+        // Switches how many hearts are drawn based on Player's current health
         switch (PlayerHealthController.instance.currentHealth)
         {
             case 6:
@@ -89,15 +83,12 @@ public class UIController : MonoBehaviour
                 heart2.sprite = heartEmpty;
                 heart3.sprite = heartEmpty;
                 break;
-
         }
-
     }
 
+    // Refreshes our UI Gem count text
     public void UpdateGemCount()
     {
-
         gemText.text = LevelManager.instance.gemsCollected.ToString();
-
     }
 }
