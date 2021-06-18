@@ -13,6 +13,7 @@ public class PlayerController : MonoBehaviour
     public float jumpForce;
     public float bounceForce;
     public float knockbackLength, knockbackForce;
+    public bool stopInput;
 
     private Animator anim;
     private SpriteRenderer spriteRenderer;
@@ -38,72 +39,80 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // If we are not knocked back...
-        if (knockbackCounter <= 0)
+
+        // Only if the game is not paused AND stop input is not false...
+        if (!PauseMenu.instance.isPaused && !stopInput)
         {
-            // Move our Player's rigid body's x-position based on our set move speed
-            rigidBody.velocity = new Vector2(moveSpeed * Input.GetAxis("Horizontal"), rigidBody.velocity.y);
 
-            // Checks to see if we are on the ground with a circle overlap underneath Player and creates a bool
-            isGrounded = Physics2D.OverlapCircle(groundCheckPoint.position, .2f, whatIsGround);
-
-            // If we are grounded... 
-            if (isGrounded)
+            // If we are not knocked back...
+            if (knockbackCounter <= 0)
             {
-                // Double jump ability available
-                canDoubleJump = true;
-            }
+                // Move our Player's rigid body's x-position based on our set move speed
+                rigidBody.velocity = new Vector2(moveSpeed * Input.GetAxis("Horizontal"), rigidBody.velocity.y);
 
-            // If "Jump" button is pressed...
-            if (Input.GetButtonDown("Jump"))
-            {
-                // If we are grounded...
+                // Checks to see if we are on the ground with a circle overlap underneath Player and creates a bool
+                isGrounded = Physics2D.OverlapCircle(groundCheckPoint.position, .2f, whatIsGround);
+
+                // If we are grounded... 
                 if (isGrounded)
                 {
-                    // Changes y-position based on our jump force value
-                    rigidBody.velocity = new Vector2(rigidBody.velocity.x, jumpForce);
-                    // Play "Player Jump" SFX
-                    AudioManager.instance.PlaySFX(10);
+                    // Double jump ability available
+                    canDoubleJump = true;
                 }
-                else
+
+                // If "Jump" button is pressed...
+                if (Input.GetButtonDown("Jump"))
                 {
-                    // Otherwise, if not grounded, and Player can still double jump...
-                    if (canDoubleJump)
+                    // If we are grounded...
+                    if (isGrounded)
                     {
                         // Changes y-position based on our jump force value
                         rigidBody.velocity = new Vector2(rigidBody.velocity.x, jumpForce);
-                        // Take away double jump availability
-                        canDoubleJump = false;
                         // Play "Player Jump" SFX
                         AudioManager.instance.PlaySFX(10);
                     }
+                    else
+                    {
+                        // Otherwise, if not grounded, and Player can still double jump...
+                        if (canDoubleJump)
+                        {
+                            // Changes y-position based on our jump force value
+                            rigidBody.velocity = new Vector2(rigidBody.velocity.x, jumpForce);
+                            // Take away double jump availability
+                            canDoubleJump = false;
+                            // Play "Player Jump" SFX
+                            AudioManager.instance.PlaySFX(10);
+                        }
+                    }
+                }
+
+                // Checks which way the Player is headed and flips sprite accordingly
+                if (rigidBody.velocity.x < 0)
+                {
+                    spriteRenderer.flipX = true;
+                }
+                else if (rigidBody.velocity.x > 0)
+                {
+                    spriteRenderer.flipX = false;
+                }
+            }
+            else // If Player is knocked back...
+            {
+                // Continue running down the Player's knockback counter
+                knockbackCounter -= Time.deltaTime;
+
+                // Knock back our player in the opposite direction that the Player's sprite is facing
+                if (!spriteRenderer.flipX)
+                {
+                    rigidBody.velocity = new Vector2(-knockbackForce, rigidBody.velocity.y);
+                }
+                else
+                {
+                    rigidBody.velocity = new Vector2(knockbackForce, rigidBody.velocity.y);
                 }
             }
 
-            // Checks which way the Player is headed and flips sprite accordingly
-            if (rigidBody.velocity.x < 0)
-            {
-                spriteRenderer.flipX = true;
-            }
-            else if (rigidBody.velocity.x > 0)
-            {
-                spriteRenderer.flipX = false;
-            }
-        }
-        else    // If Player is knocked back...
-        {
-            // Continue running down the Player's knockback counter
-            knockbackCounter -= Time.deltaTime;
-            
-            // Knock back our player in the opposite direction that the Player's sprite is facing
-            if (!spriteRenderer.flipX)
-            {
-                rigidBody.velocity = new Vector2(-knockbackForce, rigidBody.velocity.y);
-            }
-            else
-            {
-                rigidBody.velocity = new Vector2(knockbackForce, rigidBody.velocity.y);
-            }
+
         }
 
         // Sets parameters used by our Animator based on current Update loop's variable values
