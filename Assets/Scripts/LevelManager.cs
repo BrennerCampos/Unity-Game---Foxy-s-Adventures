@@ -7,7 +7,7 @@ public class LevelManager : MonoBehaviour
 {
 
     public static LevelManager instance;
-    public float waitToRespawn;
+    public float waitToRespawn, timeInLevel;
     public int gemsCollected;
     public string levelToLoad;
 
@@ -21,13 +21,13 @@ public class LevelManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        timeInLevel = 0f;
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        timeInLevel += Time.deltaTime;
     }
 
 
@@ -54,7 +54,6 @@ public class LevelManager : MonoBehaviour
         yield return new WaitForSeconds((1f / UIController.instance.fadeSpeed) + 0.2f);
         UIController.instance.FadeFromBlack();
 
-
         // Reactivates our player
         PlayerController.instance.gameObject.SetActive(true);
         // Spawns our player's position at our last checkpoint
@@ -75,20 +74,58 @@ public class LevelManager : MonoBehaviour
 
     public IEnumerator EndLevelCo()
     {
+       // Play victory music
+        AudioManager.instance.PlayLevelVictory();
+        
+        // Removes player input ability
         PlayerController.instance.stopInput = true;
         CameraController.instance.stopFollow = true;
+       
         UIController.instance.levelCompleteText.SetActive(true);
 
+        // Wait a bit then fade screen to black
         yield return new WaitForSeconds(1.5f);
-
         UIController.instance.FadeToBlack();
 
-        yield return new WaitForSeconds((1f / UIController.instance.fadeSpeed) + 0.25f);
+        // Waits an extra amount of time for victory music to finish playing
+        yield return new WaitForSeconds((1f / UIController.instance.fadeSpeed) + 3f);
 
+        // Marks current level as unlocked in PlayerPrefs and gets level name
+        PlayerPrefs.SetInt(SceneManager.GetActiveScene().name + "_unlocked", 1);
+        PlayerPrefs.SetString("CurrentLevel", SceneManager.GetActiveScene().name);
+
+        // If there is any GEMS data stored on current level...
+        if (PlayerPrefs.HasKey(SceneManager.GetActiveScene().name + "_gems"))
+        {
+            // If current gems total is better than previous best (or goal)
+            if (gemsCollected > PlayerPrefs.GetInt(SceneManager.GetActiveScene().name + "_gems", gemsCollected))
+            {
+                // Sets PlayerPref's gemsCollected for course to our current gem count
+                PlayerPrefs.SetInt(SceneManager.GetActiveScene().name + "_gems", gemsCollected);
+            }
+        }
+        else    // If no GEMS data is found...
+        {
+            PlayerPrefs.SetInt(SceneManager.GetActiveScene().name + "_gems", gemsCollected);
+        }
+
+        // If there is any TIME data stored on current level...
+        if (PlayerPrefs.HasKey(SceneManager.GetActiveScene().name + "_time"))
+        {
+            // If current time taken on level is better than previous best time...
+            if (timeInLevel < PlayerPrefs.GetFloat(SceneManager.GetActiveScene().name + "_time"))
+            {
+                PlayerPrefs.SetFloat(SceneManager.GetActiveScene().name + "_time", timeInLevel);
+            }
+        }
+        else    // If no TIME data is found...
+        {
+            PlayerPrefs.SetFloat(SceneManager.GetActiveScene().name + "_time", timeInLevel);
+        }
+
+        // Finally, loads next scene
         SceneManager.LoadScene(levelToLoad);
-
     }
-
 }
 
 

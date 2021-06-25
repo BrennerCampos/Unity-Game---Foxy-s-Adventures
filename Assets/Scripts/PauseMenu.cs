@@ -50,11 +50,12 @@ public class PauseMenu : MonoBehaviour
             // Setting how fast time is passing in Unity/Game to 0 (stop)
             Time.timeScale = 0f;
         }
-
     }
 
     public void LevelSelect()
     {
+        // Marks the level as "CurrentLevel" in the PlayerPrefs, then loads the level
+        PlayerPrefs.SetString("CurrentLevel", SceneManager.GetActiveScene().name);
         SceneManager.LoadScene(levelSelect);
 
         // Setting how fast time is passing in Unity/Game to 1 (normal speed)

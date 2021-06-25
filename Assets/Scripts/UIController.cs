@@ -17,8 +17,6 @@ public class UIController : MonoBehaviour
     private bool shouldFadeToBlack, shouldFadeFromBlack;
 
 
-
-
     // Creates UI Controller constructor before game starts
     private void Awake()
     {
