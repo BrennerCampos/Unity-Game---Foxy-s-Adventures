@@ -2748,7 +2748,7 @@ PrefabInstance:
       objectReference: {fileID: 939077089}
     - target: {fileID: 6128596673679645953, guid: 4f713fb630ef205489e64c03c064110e, type: 3}
       propertyPath: timeTarget
-      value: 45
+      value: 35
       objectReference: {fileID: 0}
     - target: {fileID: 6128596673679645953, guid: 4f713fb630ef205489e64c03c064110e, type: 3}
       propertyPath: levelToLoad
@@ -15714,7 +15714,7 @@ PrefabInstance:
       objectReference: {fileID: 1861014620}
     - target: {fileID: 6128596673679645953, guid: 4f713fb630ef205489e64c03c064110e, type: 3}
       propertyPath: timeTarget
-      value: 50
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 6128596673679645953, guid: 4f713fb630ef205489e64c03c064110e, type: 3}
       propertyPath: levelToLoad

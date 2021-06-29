@@ -76,7 +76,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1035074787
-  m_SortingLayer: 1
+  m_SortingLayer: 4
   m_SortingOrder: 1
   m_Sprite: {fileID: 7815371044791450175, guid: d0ff653f4b4d3f14dab1926a9ed3efb6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -138,13 +138,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be0da4810d6ae245b083b0b9aa20b5d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 8
-  jumpForce: 13.3
   rigidBody: {fileID: 5434182929282992001}
   groundCheckPoint: {fileID: 5434182929294180227}
   whatIsGround:
     serializedVersion: 2
-    m_Bits: 256
+    m_Bits: 1280
+  moveSpeed: 8
+  jumpForce: 13.3
+  bounceForce: 0
+  knockbackLength: 0
+  knockbackForce: 0
+  stopInput: 0
 --- !u!95 &5434182929282992028
 Animator:
   serializedVersion: 3
@@ -176,8 +180,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e5e4b3e55e42cfb46b2c4c6911ed3609, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  deathEffect: {fileID: 0}
   currentHealth: 0
   maxHealth: 3
+  iFrameLength: 0
 --- !u!1 &5434182929294180252
 GameObject:
   m_ObjectHideFlags: 0
