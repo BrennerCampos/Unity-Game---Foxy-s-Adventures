@@ -30,7 +30,6 @@ public class LevelManager : MonoBehaviour
         timeInLevel += Time.deltaTime;
     }
 
-
     public void RespawnPlayer()
     {
         // Coroutines must be started with "StartCoroutine"
@@ -65,12 +64,10 @@ public class LevelManager : MonoBehaviour
         UIController.instance.UpdateHealthDisplay();
     }
 
-
     public void EndLevel()
     {
         StartCoroutine(EndLevelCo());
     }
-
 
     public IEnumerator EndLevelCo()
     {

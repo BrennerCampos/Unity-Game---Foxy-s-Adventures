@@ -6,7 +6,7 @@ public class AudioManager : MonoBehaviour
 {
     public static AudioManager instance;
     public AudioSource[] soundEffects;
-    public AudioSource BGM, levelEndMusic;
+    public AudioSource BGM, levelEndMusic, bossMusic;
     
 
     // Creates an AudioManager instance constructor before game starts
@@ -45,4 +45,17 @@ public class AudioManager : MonoBehaviour
         // The play end music
         levelEndMusic.Play();
     }
+
+    public void PlayBossMusic()
+    {
+        BGM.Stop();
+        bossMusic.Play();
+    }
+
+    public void StopBossMusic()
+    {
+        bossMusic.Stop();
+        BGM.Play();
+    }
+
 }

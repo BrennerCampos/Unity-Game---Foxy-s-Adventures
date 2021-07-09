@@ -31,7 +31,6 @@ public class MainMenu : MonoBehaviour
         
     }
 
-
     public void StartGame()
     {
         // If starting a new game, load the start scene

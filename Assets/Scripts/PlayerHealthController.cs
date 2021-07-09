@@ -90,7 +90,6 @@ public class PlayerHealthController : MonoBehaviour
         }
     }
 
-
     public void HealPlayer()
     {
         // Heals Player by one health point
@@ -105,5 +104,23 @@ public class PlayerHealthController : MonoBehaviour
 
         // Update our UI's health display
         UIController.instance.UpdateHealthDisplay();
+    }
+
+
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.gameObject.tag == "Platform")
+        {
+            transform.parent = other.transform;
+        }
+    }
+
+
+    private void OnCollisionExit2D(Collision2D other)
+    {
+        if (other.gameObject.tag == "Platform")
+        {
+            transform.parent = null;
+        }
     }
 }
