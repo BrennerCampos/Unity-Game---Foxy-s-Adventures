@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
-using UnityEditor.Timeline;
+using UnityEditor;
 using UnityEngine;
 
 public class BossTankController : MonoBehaviour

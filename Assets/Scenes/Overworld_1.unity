@@ -474,6 +474,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6128596673679645953, guid: 4f713fb630ef205489e64c03c064110e, type: 3}
+      propertyPath: gemsTotal
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6128596673679645953, guid: 4f713fb630ef205489e64c03c064110e, type: 3}
       propertyPath: levelName
       value: '19: Ninth'
       objectReference: {fileID: 0}
@@ -3073,7 +3077,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6128596673679645953, guid: 4f713fb630ef205489e64c03c064110e, type: 3}
       propertyPath: gemsTotal
-      value: 27
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6128596673679645953, guid: 4f713fb630ef205489e64c03c064110e, type: 3}
       propertyPath: levelName
@@ -14179,6 +14183,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6128596673679645953, guid: 4f713fb630ef205489e64c03c064110e, type: 3}
+      propertyPath: gemsTotal
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6128596673679645953, guid: 4f713fb630ef205489e64c03c064110e, type: 3}
       propertyPath: levelName
       value: '1-8: Eigth'
       objectReference: {fileID: 0}
@@ -14862,7 +14870,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6128596673679645953, guid: 4f713fb630ef205489e64c03c064110e, type: 3}
       propertyPath: gemsTotal
-      value: 30
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6128596673679645953, guid: 4f713fb630ef205489e64c03c064110e, type: 3}
       propertyPath: levelName
@@ -15033,7 +15041,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6128596673679645953, guid: 4f713fb630ef205489e64c03c064110e, type: 3}
       propertyPath: gemsTotal
-      value: 35
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6128596673679645953, guid: 4f713fb630ef205489e64c03c064110e, type: 3}
       propertyPath: levelName
@@ -15994,6 +16002,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6128596673679645953, guid: 4f713fb630ef205489e64c03c064110e, type: 3}
+      propertyPath: gemsTotal
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6128596673679645953, guid: 4f713fb630ef205489e64c03c064110e, type: 3}
       propertyPath: levelName
       value: '1-10: Tenth'
       objectReference: {fileID: 0}
@@ -16546,6 +16558,10 @@ PrefabInstance:
       propertyPath: gemBadge
       value: 
       objectReference: {fileID: 8865224922124750463}
+    - target: {fileID: 6128596673679645953, guid: 4f713fb630ef205489e64c03c064110e, type: 3}
+      propertyPath: gemsTotal
+      value: 12
+      objectReference: {fileID: 0}
     - target: {fileID: 6128596673679645953, guid: 4f713fb630ef205489e64c03c064110e, type: 3}
       propertyPath: timeBadge
       value: 
